@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Taxoneconsultant
+  </title>
+
+  <!-- bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Cinzel:wght@600&family=Noto+Serif+Makasar&family=Rakkas&family=Roboto+Slab&family=Ubuntu&family=VT323&family=Yatra+One&family=Ysabeau+Infant:wght@600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://kit.fontawesome.com/5fbfb6056a.js" crossorigin="anonymous"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+<!--Animination-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-black fixed-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo">TAXONE CONSULTANT</a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1300">
+        <img src="images/caros1.jpg" class="d-block w-10" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1300">
+        <img src="images/caros2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1300">
+        <img src="images/caros3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1300">
+        <img src="images/caros4.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1300">
+        <img src="images/caros5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1300">
+        <img src="images/caros6.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="remaining">
+
+
+    <!--Services-->
+     <div class="services">
+      <h3>Services</h3>
+      <!-- <div class="table">
+        <div class="row">
+          <div class="column service-deatails" data-aos="fade-right"  data-aos-duration="1500">
+            Accounting Services<br>
+            We provide book keeping and accounting services for your
+            debits and credits at cost efficient rates.
+          </div>
+          <div class="column service-deatails" data-aos="fade-right" data-aos-duration="1500">
+            Taxation<br>
+              We assist you in making correct and timely tax payments of dues
+              such as advance tax, self assessment tax, and GST payments etc.
+          </div>
+        </div>
+        <div class="row">
+          <div class="column service-deatails" data-aos="fade-left" data-aos-duration="1500">
+            Stock Verification<br>
+            We undertake Verification of Stock physically for corporate
+            with the object of bringing in efficiency in the functioning.
+          </div>
+          <div class="column service-deatails" data-aos="fade-left" data-aos-duration="1500">
+            Corporate and Financial Advisory<br>
+            We focus on advising the clients regarding company law compliances and raising of resources through
+            various financial institutions, banks, etc.
+          </div>
+        </div>
+
+
+             
+
+      </div> -->
+<div class="allservices">
+  <div class="servicess first-one">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <h1>Accounting Services</h1>
+        <img src="images/accounting.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        We provide book keeping and accounting services for your
+        debits and credits at cost efficient rates.
+      </div>
+    </div>
+   
+  </div>
+
+  <div class="servicess">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <br>
+        <h1>Taxation</h1>
+        <br>
+        <img src="images/taxation.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        We assist you in making correct and timely tax payments of dues
+              such as advance tax, self assessment tax, and GST payments etc.
+      </div>
+    </div>
+   
+  </div>
+  <div class="servicess">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <br>
+        <h1>Stock Verification</h1>
+        <br>
+        <img src="images/stockverification.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        We undertake Verification of Stock physically for corporate
+        with the object of bringing in efficiency in the functioning.
+      </div>
+    </div>
+   
+  </div>
+  <div class="servicess first-one">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <h1>Corporate & Financial Advisory</h1>
+        <img src="images/coorpoate.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        We focus on advising the clients regarding company law compliances and raising of resources through
+            various financial institutions, banks, etc.
+      </div>
+    </div>
+   
+  </div>
+  <div class="servicess">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <br>
+        <h1>GST Services</h1>
+        <br>
+        <img src="images/gst.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        We are one of the reliable and widely acclaimed service providers of GST consultancy services for registration and refund..
+      </div>
+    </div>
+   
+  </div>
+  <div class="servicess">
+    <div class="servicess-inner">
+      <div class="servicess-front">
+        <br>
+        <h1>Other Services</h1>
+        <br>
+        <img src="images/services.jpg" alt="Accounting Images" style="width:300px;height:300px; background-size:100% ">
+      </div>
+      <div class="servicess-back">
+        <br>
+        
+        •	PAN Card services.
+        <br>
+        •	Digital signature certificate (Dsc).
+        <br>
+        •	Internal audit. 
+        <br>
+        •	Invoice Vouching and etc…
+      </div>
+    </div>
+   
+  </div>
+
+</div>
+<div class="note">
+  Note: Scroll over Services to see more about services
+</div>
+        
+    
+
+      <!-- Contact -->
+      <div class="contact">
+       <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.0942184102605!2d78.80693857473223!3d18.3885625731943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccfc9bdeaaab69%3A0x716b7e604ce61268!2sSiricilla%20Municipal%20Office!5e0!3m2!1sen!2sin!4v1691654253709!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <h3>Contact Deatails</h3>
+        <div class="secondary-deatails" id="mobile">
+          Phone numbers:<br>
+          +91 8688465889<br>
+          +91 9652117483
+        </div>
+        <div class="secondary-deatails">
+
+          Emails:<br>
+          <a href="mailto:balakishanjeela@outlook.com" style="color: inherit;" target="_blank">balakishanjeela@outlook.com<br></a>
+     <a href="mailto:infotaxoneconsultant@gmail.com" style="color: inherit;" target="_blank"> infotaxoneconsultant@gmail.com </a>
+        </div>
+
+        <div class="col-sm-10">
+          Address:<br>
+          Annapurna Complex (Airtel office Building) 2nd floor,<br> adjacent side to Municipal Office, Rajanna Sircilla,
+          Telangana-505301
+
+        </div>
+        <div class="footer">
+          &#169 TAXONE CONSULTANT
+          <div class="icons">
+            <a href="https://www.instagram.com/taxoneconsultant/" target="_blank"><i
+                class="fa-brands fa-instagram fa-beat fa-2xl"></i></a>
+            <a href="https://wa.me/8688465889" target="_blank"> <i class="fa-brands fa-whatsapp fa-beat fa-2xl"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Boot strap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
